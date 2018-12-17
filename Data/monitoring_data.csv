@@ -1,0 +1,160 @@
+Name_1;Name_2;Name_3;Taxa;Abundance
+3;2010;;Sericostoma sp.;1
+3;2010;;Tinodes sp.;1
+3;2010;;Rhyacophila sp.;2
+3;2010;;Chaetopterygini/Stenophylacini Gen. sp.;4
+3;2010;;Odontocerum albicorne;3
+3;2010;;Plectrocnemia sp.;3
+3;2010;;Leuctra nigra;2
+3;2010;;Nemoura sp.;11
+8;2010;;Chaetopterygini/Stenophylacini Gen. sp.;14
+8;2010;;Rhyacophila glareosa;3
+8;2010;;Dictyogenus sp.;12
+8;2010;;Leuctra braueri;13
+8;2010;;Nemoura sp.;25
+3;2010;;Baetidae Gen. sp.;14
+3;2010;;Electrogena ujhelyii;15
+3;2010;;Habroleptoides confusa;2
+8;2010;;Baetis sp.;101
+8;2010;;Ecdyonurus alpinus;22
+3;2010;;Turbellaria Gen. sp.;11
+3;2010;;Oligochaeta Gen. sp.;11
+3;2010;;Sphaeriidae Gen. sp.;1
+3;2010;;Hydrachnidia Gen. sp.;1
+3;2010;;Gammaridae Gen. sp.;101
+3;2010;;Sialidae Gen. sp.;1
+3;2010;;Elmidae Gen. sp.;11
+3;2010;;Hydraenidae Gen. sp.;4
+3;2010;;Scirtidae Gen. sp.;2
+3;2010;;Ceratopogonidae Gen. sp.;4
+3;2010;;Chironomidae Gen. sp.;11
+3;2010;;Limoniidae Gen. sp.;5
+3;2010;;Ptychopteridae Gen. sp.;11
+3;2010;;Simuliidae Gen. sp.;11
+3;2010;;Tipulidae Gen. sp.;1
+8;2010;;Turbellaria Gen. sp.;5
+8;2010;;Oligochaeta Gen. sp.;11
+8;2010;;Muscidae Gen. sp.;2
+8;2010;;Chironomidae Gen. sp.;1001
+8;2010;;Dixidae Gen. sp.;11
+8;2010;;Empididae Gen. sp.;9
+8;2010;;Limoniidae Gen. sp.;11
+8;2010;;Simuliidae Gen. sp.;11
+8;2010;;Syrphidae Gen. sp.;1
+6;2011;;Baetis sp.;101
+6;2011;;Ecdyonurus helveticus-Gr.;114
+6;2011;;Leuctra sp.;11
+6;2011;;Nemoura mortoni;13
+6;2011;;Dictyogenus alpinum;11
+6;2011;;Rhyacophila sp.;2
+6;2011;;Athericidae Gen. sp.;1
+6;2011;;Chironomidae Gen. sp.;11
+6;2011;;Limoniidae Gen. sp.;1
+6;2011;;Simuliidae Gen. sp.;1
+2;2014;;Baetidae Gen. sp.;123
+5;2014;;Baetis sp.;101
+2;2014;;Ecdyonurus helveticus;47
+2;2014;;Habroleptoides auberti;10
+2;2014;;Amphinemura sulcicollis/triangularis;36
+2;2014;;Brachyptera risi;14
+2;2014;;Capnioneura nemuroides;11
+2;2014;;Leuctra sp.;12
+2;2014;;Perla grandis;6
+2;2014;;Chaetopterygini/Stenophylacini Gen. sp.;5
+2;2014;;Glossosoma sp.;2
+2;2014;;Hydropsyche sp.;11
+2;2014;;Rhyacophila sp.;5
+5;2014;;Ecdyonurus helveticus-Gr.;25
+5;2014;;Dictyogenus sp.;22
+5;2014;;Leuctra braueri;110
+5;2014;;Nemoura mortoni;23
+5;2014;;Chaetopterygini/Stenophylacini Gen. sp.;26
+5;2014;;Rhyacophila intermedia;9
+2;2014;;Turbellaria Gen. sp.;1
+2;2014;;Glossiphoniidae Gen. sp.;1
+2;2014;;Oligochaeta Gen. sp.;11
+2;2014;;Hydrachnidia Gen. sp.;3
+2;2014;;Gammaridae Gen. sp.;4
+2;2014;;Elmidae Gen. sp.;5
+2;2014;;Scirtidae Gen. sp.;1
+2;2014;;Athericidae Gen. sp.;2
+2;2014;;Ceratopogonidae Gen. sp.;2
+2;2014;;Chironomidae Gen. sp.;101
+2;2014;;Empididae Gen. sp.;1
+2;2014;;Limoniidae Gen. sp.;4
+2;2014;;Psychodidae Gen. sp.;2
+2;2014;;Simuliidae Gen. sp.;101
+5;2014;;Turbellaria Gen. sp.;11
+5;2014;;Oligochaeta Gen. sp.;11
+5;2014;;Hydrachnidia Gen. sp.;2
+5;2014;;Elmidae Gen. sp.;2
+5;2014;;Scirtidae Gen. sp.;1
+5;2014;;Muscidae Gen. sp.;2
+5;2014;;Ceratopogonidae Gen. sp.;11
+5;2014;;Chironomidae Gen. sp.;11
+5;2014;;Dixidae Gen. sp.;10
+5;2014;;Empididae Gen. sp.;2
+5;2014;;Limoniidae Gen. sp.;11
+5;2014;;Psychodidae Gen. sp.;11
+5;2014;;Simuliidae Gen. sp.;11
+4;2015;;Chaetopterygini/Stenophylacini Gen. sp.;9
+1;2015;;Chaetopterygini/Stenophylacini Gen. sp.;110
+1;2015;;Glossosoma sp.;1
+1;2015;;Plectrocnemia sp.;1
+1;2015;;Rhyacophila sp.;6
+1;2015;;Brachyptera risi;11
+1;2015;;Isoperla sp.;11
+1;2015;;Leuctra sp.;101
+1;2015;;Nemoura sp.;119
+1;2015;;Baetidae Gen. sp.;26
+1;2015;;Ecdyonurus helveticus;11
+1;2015;;Habroleptoides auberti;2
+4;2015;;Hydropsyche sp.;9
+4;2015;;Odontocerum albicorne;2
+4;2015;;Rhyacophila sp.;5
+4;2015;;Sericostoma sp.;2
+4;2015;;Amphinemura sulcicollis;22
+4;2015;;Brachyptera risi;10
+4;2015;;Leuctra sp.;11
+4;2015;;Baetidae Gen. sp.;25
+4;2015;;Ecdyonurus helveticus;11
+4;2015;;Ephemera danica;10
+4;2015;;Habroleptoides confusa;19
+1;2015;;Oligochaeta Gen. sp.;11
+1;2015;;Hydraenidae Gen. sp.;1
+1;2015;;Athericidae Gen. sp.;11
+1;2015;;Chironomidae Gen. sp.;101
+1;2015;;Empididae Gen. sp.;11
+1;2015;;Limoniidae Gen. sp.;1
+1;2015;;Simuliidae Gen. sp.;11
+1;2015;;Stratiomyiidae Gen. sp.;1
+4;2015;;Turbellaria Gen. sp.;4
+4;2015;;Oligochaeta Gen. sp.;11
+4;2015;;Sphaeriidae Gen. sp.;5
+4;2015;;Hydrachnidia Gen. sp.;1
+4;2015;;Gammaridae Gen. sp.;2
+4;2015;;Dytiscidae Gen. sp.;1
+4;2015;;Elmidae Gen. sp.;8
+4;2015;;Hydraenidae Gen. sp.;2
+4;2015;;Scirtidae Gen. sp.;3
+4;2015;;Athericidae Gen. sp.;2
+4;2015;;Ceratopogonidae Gen. sp.;1
+4;2015;;Chironomidae Gen. sp.;101
+4;2015;;Empididae Gen. sp.;11
+4;2015;;Limoniidae Gen. sp.;11
+4;2015;;Psychodidae Gen. sp.;2
+4;2015;;Simuliidae Gen. sp.;11
+4;2015;;Tipulidae Gen. sp.;1
+7;2016;;Baetis sp.;101
+7;2016;;Ecdyonurus picteti;44
+7;2016;;Dictyogenus sp.;11
+7;2016;;Leuctra sp.;101
+7;2016;;Nemoura mortoni;207
+7;2016;;Siphonoperla montana;11
+7;2016;;Drusus discolor;16
+7;2016;;Turbellaria Gen. sp.;101
+7;2016;;Oligochaeta Gen. sp.;1
+7;2016;;Athericidae Gen. sp.;55
+7;2016;;Chironomidae Gen. sp.;101
+7;2016;;Limoniidae Gen. sp.;2
+7;2016;;Simuliidae Gen. sp.;11
