@@ -1,12 +1,12 @@
-pfad="C:\\Users\\foit\\Desktop\\SPEAR_Calculator_20180919" #Pfad muss entsprechend angepasst werden...
+pfad="SPEAR_2018/" #Pfad muss entsprechend angepasst werden...
 
 #Monitoring-Daten aus der SPEAR-Berechnungsdatei der Software Indicate:
-m=read.table(file.path(pfad,"MonitoringdatenSPEARcalculator.txt"),header=TRUE,sep="\t",stringsAsFactors=FALSE)
+m=read.table("Data/monitoring_data.csv",header=TRUE,sep=",",stringsAsFactors=FALSE)
 head(m)
-#Taxa-Einträge werden für die folgenden Berechnungen angepasst
-m$Taxa[grep("dae",m$Taxa)]=paste(m$Taxa[grep("dae",m$Taxa)]," Gen. sp.",sep="")
-m$Taxa[which(m$Taxa == "Curculionoidea")]="Curculionidae Gen. sp."
-m$Taxa
+#Taxa-Eintr?ge werden f?r die folgenden Berechnungen angepasst
+# m$Taxa[grep("dae",m$Taxa)]=paste(m$Taxa[grep("dae",m$Taxa)]," Gen. sp.",sep="")
+# m$Taxa[which(m$Taxa == "Curculionoidea")]="Curculionidae Gen. sp."
+# m$Taxa
 #Aus den zwei Namen wird eine Sample-ID generiert
 m$sample=paste(m$Name_1,m$Name_2,sep="_")
 
@@ -20,7 +20,7 @@ l=read.table(file.path(pfad,"CE_6_link_aqem_aggregate.txt"),header=TRUE,quote=""
 head(l);nrow(l)
 
 
-#Schritt 1: Taxa für die Aggregierung anhängen
+#Schritt 1: Taxa f?r die Aggregierung anh?ngen
 m=merge(m,l[,c("taxa","LINK")],by.x="Taxa",by.y="taxa",all.x=TRUE,all.y=FALSE)
 head(m)
 
@@ -36,12 +36,12 @@ Abundance=sum(x$Abundance)
 )
 })
 nrow(m)
-nrow(m2)#Anzahl würde sich durch diesen Schritt eigentlich reduzieren...nur in diesem Bsp nicht
+nrow(m2)#Anzahl w?rde sich durch diesen Schritt eigentlich reduzieren...nur in diesem Bsp nicht
 
-#Schritt 3: Logarithmieren (s. angehängter Publikation 'Knillmann et al. 2018')
+#Schritt 3: Logarithmieren (s. angeh?ngter Publikation 'Knillmann et al. 2018')
 m2$abuL=log10(4*m2$Abundance+1)
 
-#Schritt 4: Traits anhängen
+#Schritt 4: Traits anh?ngen
 m2=merge(m2,t[,c("taxa","gt","sens","exp","refu","SPEAR")],by.x="Taxa",by.y="taxa",all.x=TRUE,all.y=FALSE)
 head(m2)
 
@@ -74,7 +74,7 @@ m3
 
 #Schritt 9: TU-Berechnung:
 #Es gibt nur noch eine Formel zur TU-Berechnung, da nicht mehr zwischen Stellen mit und ohne Refugien im Oberlauf unterschieden wird...
-#(s. angehängte Publikation von Knillmann et al. 2018)
+#(s. angeh?ngte Publikation von Knillmann et al. 2018)
 #SPEAR = 0.1288 - 0.2118*TU
 #TU = (0.1288-SPEAR)/0.2118
 m3$tu=(0.1288-m3$spearNormiert)/0.2118
@@ -83,6 +83,6 @@ m3
 
 #--------------------------------
 #Ergebnis, dass Ende des Monats (9/2018) mit dem Ergebnis aus 'Indicate' verglichen werden kann
-write.table(m3,file.path(pfad,"SPEARresults.txt"),sep="\t",dec=".",row.names=FALSE)
+# write.table(m3,file.path(pfad,"SPEARresults.txt"),sep="\t",dec=".",row.names=FALSE)
 
 #--------------------------------
