@@ -13,7 +13,7 @@ db <- src_sqlite(path = "~/Documents/Dropbox/DB_BDM.db", create = FALSE)
 # Prepare csv file with monitoring data ----
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Randomly select 10 surveys
-set.seed(1234)
+set.seed(21647267)
 ausw <- sample(tbl(db, "KD_EPT") %>% pull(aID_KD), 10)
 
 # Export monitoring data to these then surveys
@@ -27,4 +27,4 @@ left_join(tbl(db, "EPT"), tbl(db, "TRAITS_EPT")) %>%
             Name_3	= "",
             Taxa = Taxa_Spear,
             Abundance = IBCH_Anz_Ind) %>% 
-  write_delim(path = "Data/monitoring_data.csv", delim = ";")
+  write_delim(path = "Data/monitoring_data.csv", delim = ",")

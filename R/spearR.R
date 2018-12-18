@@ -1,3 +1,4 @@
+
 rm(list=ls(all=TRUE))
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -27,13 +28,14 @@ dat %>%
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Calculate SPEAR-Index ----
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-dat %>% 
-  left_join(read_csv("Indicate_tables/Trat_Database.csv")) %>% 
-  mutate(SPEAR_class = as.integer(Sensitivity > -0.36 & 
+dat %>%
+  left_join(read_csv("Indicate_tables/Trat_Database.csv")) %>%
+  mutate(SPEAR_class = as.integer(Sensitivity > -0.36 &
                                     Generation >= 0.5 &
-                                    Refuge == 1 & 
-                                    Exposed == 1)) %>% 
-  group_by(Name_1, Name_2) %>% 
-  summarise(SPEAR = round(100 * sum(log10(4 * Abundance + 1) * SPEAR_class) / 
-                            sum(log10(4 * Abundance + 1)), 2) / 34)
+                                    Refuge == 1 &
+                                    Exposed == 1)) %>%
+  group_by(Name_1, Name_2) %>%
+  summarise(SPEAR = round(100 * sum(log10(4 * Abundance + 1) * SPEAR_class) /
+                            sum(log10(4 * Abundance + 1))  / 34, 2))
+
 
