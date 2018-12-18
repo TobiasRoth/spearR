@@ -8,7 +8,7 @@ rm(list=ls(all=TRUE))
 library(tidyverse)
 
 # Load data
-dat <- read_csv2("Data/monitoring_data.csv")
+dat <- read_csv("Data/monitoring_data.csv")
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Taxa traits and classification ----
